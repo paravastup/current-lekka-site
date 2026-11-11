@@ -2,7 +2,7 @@
 
 The one-page product site for **Current Lekka** (కరెంట్ లెక్క), an Android app that reads a photo of a Telangana electricity bill slip and explains it aloud in Telugu, Hindi or English, on the phone.
 
-It is the website for the app's entry to the Telangana Innovation Startup Challenge (TISC 2026), Challenge #13, and is published with GitHub Pages at <https://paravastup.github.io/current-lekka-site/>.
+It is the website for the app's entry to the Telangana Innovation Startup Challenge (TISC 2026), Challenge #13, and is published with GitHub Pages at <https://current-lekka.pages.dev/>.
 
 ## Files
 

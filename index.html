@@ -11,9 +11,15 @@
   <link rel="icon" href="assets/favicon-32.png" sizes="32x32" type="image/png">
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 
+  <link rel="alternate" hreflang="en" href="https://current-lekka.pages.dev/">
+  <link rel="alternate" hreflang="te" href="https://current-lekka.pages.dev/te/">
+  <link rel="alternate" hreflang="x-default" href="https://current-lekka.pages.dev/">
+
   <!-- Open Graph: crawlers need absolute URLs here; everything else on the page is relative. -->
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Current Lekka">
+  <meta property="og:locale" content="en_IN">
+  <meta property="og:locale:alternate" content="te_IN">
   <meta property="og:title" content="Current Lekka (కరెంట్ లెక్క)">
   <meta property="og:description" content="Photograph your electricity bill and hear it explained in Telugu, Hindi or English, on the phone, even offline.">
   <meta property="og:url" content="https://current-lekka.pages.dev/">
@@ -37,7 +43,13 @@
         <img src="assets/mark.svg" alt="" width="32" height="32">
         <span>Current Lekka</span>
       </a>
-      <a class="top__link" href="https://github.com/paravastup/current-lekka-site/releases/latest">Download</a>
+      <div class="top__actions">
+        <nav class="lang-switch" aria-label="Language">
+          <a href="/" lang="en" hreflang="en" aria-current="page">English</a>
+          <a href="/te/" lang="te" hreflang="te">తెలుగు</a>
+        </nav>
+        <a class="top__link" href="https://github.com/paravastup/current-lekka-site/releases/latest">Download</a>
+      </div>
     </div>
   </header>
 

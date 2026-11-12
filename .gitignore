@@ -3,3 +3,4 @@ _review/
 .DS_Store
 # Translation review table for native readers: never publish
 TRANSLATION-te.md
+.wrangler/
